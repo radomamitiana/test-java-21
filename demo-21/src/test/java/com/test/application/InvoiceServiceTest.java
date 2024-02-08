@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @SpringBootTest
-public class InvoiceServiceTest {
+class InvoiceServiceTest {
     private final List<Invoice> inputs = Arrays.asList(
             new Invoice("EUR", new BigDecimal("50")),
             new Invoice("EUR", new BigDecimal("27")),
